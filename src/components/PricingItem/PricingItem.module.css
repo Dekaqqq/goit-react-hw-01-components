@@ -1,0 +1,24 @@
+.pricingItem {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.capacity {
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #b4b4b4;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #bababa;
+}
+
+.price {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    text-transform: uppercase;
+}

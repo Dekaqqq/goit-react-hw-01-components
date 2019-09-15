@@ -1,0 +1,38 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 100px 48px;
+    list-style: none;
+    background-color: #dbdbdb;
+}
+
+.item {
+    min-width: 292px;
+    flex: 0 0 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 54px 34px;
+    background-color: #fff;
+}
+
+.item:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .item {
+        flex-basis: 49%;
+    }
+
+    .item:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}

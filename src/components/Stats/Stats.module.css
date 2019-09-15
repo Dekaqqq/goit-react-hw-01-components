@@ -1,0 +1,42 @@
+.statsSection {
+    max-width: 428px;
+    margin: 0 auto;
+    padding: 60px 54px;
+    background-color: #f0f3f6;
+}
+
+.title {
+    padding: 30px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fff;
+    color: #6c7a84;
+}
+
+.statList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item {
+    flex: 0 0 20%;
+    padding: 10px 0 16px;
+    text-align: center;
+}
+
+.label,
+.percentage {
+    display: block;
+    color: #fff;
+}
+
+.label {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.percentage {
+    font-size: 18px;
+}
