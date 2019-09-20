@@ -1,12 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Stats.module.css';
-
-function randomBgColor() {
-    return `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
-        Math.random() * 256,
-    )}, ${Math.floor(Math.random() * 256)})`;
-}
+import randomBgColor from './statsFunc';
 
 const Stats = ({ title, stats }) => {
     return (
